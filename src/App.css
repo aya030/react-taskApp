@@ -1,0 +1,151 @@
+/*------------------------------
+
+Header
+
+-------------------------------*/
+.header-wrapper {
+  height: 70px;
+  margin-bottom: 40px;
+  background-color: rgb(254, 171, 185);
+  border-bottom: 4px dotted #fc6fa5;
+}
+.header {
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.header p {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.header a {
+  text-decoration: none;
+}
+/*------------------------------
+
+inputTask
+
+-------------------------------*/
+.inputTask {
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px 0;
+  margin: 0 auto 40px;
+  color: #fff;
+  background-color: #fe8383;
+}
+.inputTask-label {
+  display: block;
+  width: 210px;
+  margin: 0 auto 2px;
+  font-size: 12px;
+}
+.inputTask-input {
+  display: block;
+  width: 185px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 1px 12px;
+  margin: 0 auto 10px;
+}
+.inputTask-addButton {
+  display: block;
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 30px auto 0;
+  line-height: 30px;
+  color: #fe8383;
+  background-color: #fff;
+}
+
+/*------------------------------
+
+taskList
+
+-------------------------------*/
+.taskList {
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: 0 auto;
+}
+.taskList h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+.taskList p {
+  margin: 0;
+}
+.taskList div {
+  width: 280px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.taskList ul {
+  list-style: none;
+  padding: 0;
+}
+.taskList li {
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.taskList .buttons {
+  display: flex;
+  justify-content: right;
+  width: 238px;
+  padding: 0;
+  border: 0;
+}
+.taskList button {
+  display: block;
+  margin: 10px 0;
+  padding: 5px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.taskList button:nth-of-type(2) {
+  margin-left: 10px;
+}
+.taskList button.start {
+  background-color: #ffcb5b;
+}
+.taskList button.delete {
+  background-color: #fe8383;
+}
+.taskList button.back {
+  background-color: #898fc8;
+}
+.taskList button.complete {
+  background-color: #59aee1;
+}
+.taskList-taskDate {
+  font-size: 14px;
+  text-align: right;
+}
+
+/*------------------------------
+
+newTaskList
+
+-------------------------------*/
+.newTaskList {
+  background-color: #898fc8;
+}
+
+.runningTaskList {
+  background-color: #ffcb5b;
+}
+
+.completeTaskList {
+  background-color: #59aee1;
+}
