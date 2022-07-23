@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const RunningTaskList = (props) => {
   const { runningTasks, onClickBack, onClickComplete } = props;
   return (

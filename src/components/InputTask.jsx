@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const InputTask = (props) => {
   const { taskText, onChangeTaskText, onChangeTaskDate, onClick } = props;
   return (

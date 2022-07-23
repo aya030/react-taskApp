@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const NewTaskList = (props) => {
   const { newTasks, onClickStart, onClickDelete } = props;
   return (
