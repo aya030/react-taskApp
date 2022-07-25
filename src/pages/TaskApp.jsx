@@ -109,10 +109,10 @@ export const TaskApp = () => {
       <Header />
       <InputTask
         taskText={taskText}
+        taskDate={taskDate}
         onChangeTaskText={onChangeTaskText}
         onChangeTaskDate={onChangeTaskDate}
         onClick={onClickAdd}
-        taskDate={taskDate}
       />
       <div className="taskList">
         <NewTaskList
