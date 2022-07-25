@@ -112,6 +112,7 @@ export const TaskApp = () => {
         onChangeTaskText={onChangeTaskText}
         onChangeTaskDate={onChangeTaskDate}
         onClick={onClickAdd}
+        taskDate={taskDate}
       />
       <div className="taskList">
         <NewTaskList
