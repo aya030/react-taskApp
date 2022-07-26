@@ -1,5 +1,5 @@
 export const InputTask = (props) => {
-  const { taskText, onChangeTaskText, onChangeTaskDate, onClick } = props;
+  const { taskText, taskDate, onChangeTaskText, onChangeTaskDate, onClick } = props;
   return (
     <div className="inputTask">
       <label htmlFor="taskText" className="inputTask-label">
@@ -16,7 +16,13 @@ export const InputTask = (props) => {
       <label htmlFor="taskDate" className="inputTask-label">
         ＊タスク完了日
       </label>
-      <input id="taskDate" className="inputTask-input" type="date" onChange={onChangeTaskDate} />
+      <input
+        id="taskDate"
+        className="inputTask-input"
+        type="date"
+        value={taskDate}
+        onChange={onChangeTaskDate}
+      />
       <button className="inputTask-addButton" onClick={onClick}>
         新規追加
       </button>
